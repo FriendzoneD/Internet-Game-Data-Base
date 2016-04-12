@@ -16,7 +16,8 @@ namespace IGDB
 
         public LoginPage()
         {
-            MessageBox.Show("Welcome To Storm!");
+            SplashScreen shwSplash = new SplashScreen();
+            shwSplash.ShowDialog();
             InitializeComponent();
         }
 
