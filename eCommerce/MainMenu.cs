@@ -12,8 +12,6 @@ namespace IGDB
 {
     public partial class MainMenu : Form
     {
-        double price, quantity2;
-
 
         public MainMenu()
         {

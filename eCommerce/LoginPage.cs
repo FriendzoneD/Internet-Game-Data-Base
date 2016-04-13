@@ -46,7 +46,7 @@ namespace IGDB
 
             if (!userTest)
             {
-                MessageBox.Show("Invalid username and passowrd!");
+                lblError.Visible = true;
             }
         }
 
