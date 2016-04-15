@@ -38,7 +38,6 @@
             this.lblLine2 = new System.Windows.Forms.Label();
             this.btnCancelReg = new System.Windows.Forms.Button();
             this.btnNextReg = new System.Windows.Forms.Button();
-            this.lblError = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblPassword
@@ -139,24 +138,12 @@
             this.btnNextReg.UseVisualStyleBackColor = true;
             this.btnNextReg.Click += new System.EventHandler(this.btnNextReg_Click);
             // 
-            // lblError
-            // 
-            this.lblError.AutoSize = true;
-            this.lblError.ForeColor = System.Drawing.Color.Red;
-            this.lblError.Location = new System.Drawing.Point(29, 195);
-            this.lblError.Name = "lblError";
-            this.lblError.Size = new System.Drawing.Size(160, 13);
-            this.lblError.TabIndex = 14;
-            this.lblError.Text = "Error: Password does not match!";
-            this.lblError.Visible = false;
-            // 
             // Registration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(297, 287);
-            this.Controls.Add(this.lblError);
             this.Controls.Add(this.btnNextReg);
             this.Controls.Add(this.btnCancelReg);
             this.Controls.Add(this.lblTip);
@@ -188,7 +175,6 @@
         private System.Windows.Forms.Label lblLine2;
         private System.Windows.Forms.Button btnCancelReg;
         private System.Windows.Forms.Button btnNextReg;
-        private System.Windows.Forms.Label lblError;
 
 
     }

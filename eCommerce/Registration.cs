@@ -28,12 +28,17 @@ namespace IGDB
         {
             for (int i = 0; i < 100; i++)
             {
-                if (clsAccount.Accounts[i] == null)
+                if (clsAccount.Accounts[i] == null && txtPass.Text == txtRetypePass.Text)
                 {
                     this.Hide();
                     CreateAccounts(i, txtUser.Text, txtPass.Text);
                     MessageBox.Show("Registration Successful");
                     break;
+                }
+
+                else
+                {
+                    MessageBox.Show("Password do not match!");
                 }
             }
         }
