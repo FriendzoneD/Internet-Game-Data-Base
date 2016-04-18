@@ -24,5 +24,11 @@ namespace IGDB
         {
 
         }
+
+        private void btnCPUAdd_Click(object sender, EventArgs e)
+        {
+            CPU formCPU = new CPU();
+            formCPU.Show();
+        }
     }
 }

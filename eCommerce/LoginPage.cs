@@ -16,8 +16,8 @@ namespace IGDB
 
         public LoginPage()
         {
-            SplashScreen shwSplash = new SplashScreen();
-            shwSplash.ShowDialog();
+            //SplashScreen shwSplash = new SplashScreen();
+            //shwSplash.ShowDialog();
             InitializeComponent();
         }
 
@@ -47,6 +47,7 @@ namespace IGDB
             if (!userTest)
             {
                 lblError.Visible = true;
+                txtPassword.Clear();
             }
         }
 

@@ -39,6 +39,8 @@ namespace IGDB
                 else
                 {
                     MessageBox.Show("Password do not match!");
+                    txtRetypePass.Clear();
+                    break;
                 }
             }
         }
